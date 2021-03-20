@@ -1,12 +1,11 @@
 
-import AIsimulation, AhumanGame, alwaysCollude, alwaysDefect, titForTat, randomBasic, randomColluding, randomDefecting, \
-    grudger, pavlov, Sanjin, myStrategy
+import game_modes.AIsimulation as AIsimulation, game_modes.AhumanGame as AhumanGame , strategies.alwaysCollude, strategies.alwaysDefect, strategies.titForTat, strategies.randomBasic, strategies.randomColluding, strategies.randomDefecting, strategies.grudger, strategies.pavlov, strategies.Sanjin, strategies.myStrategy
 
 choices = {'1-alwaysCollude', '2-alwaysDefect', '3-titForTat', '4-randomBasic', '5-randomColluding',
            '6-randomDefecting', '7-grudger', '8-pavlov', '9-Sanjin', '10-myStrategy'}
 
-strategies = {1: alwaysCollude, 2: alwaysDefect, 3: titForTat, 4: randomBasic, 5: randomColluding, 6: randomDefecting,
-              7: grudger, 8: pavlov, 9: Sanjin, 10: myStrategy}
+strategies = {1: strategies.alwaysCollude, 2: strategies.alwaysDefect, 3: strategies.titForTat, 4: strategies.randomBasic, 5: strategies.randomColluding, 6: strategies.randomDefecting,
+              7: strategies.grudger, 8: strategies.pavlov, 9: strategies.Sanjin, 10: strategies.myStrategy}
 
 print("******************************************************************************")
 print('Here are your game options')

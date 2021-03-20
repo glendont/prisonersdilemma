@@ -1,8 +1,8 @@
-import alwaysCollude, alwaysDefect, titForTat, randomBasic, randomColluding, randomDefecting, grudger, pavlov, Sanjin, \
-    myStrategy
+import strategies.alwaysCollude, strategies.alwaysDefect, strategies.titForTat, strategies.randomBasic, strategies.randomColluding, strategies.randomDefecting, strategies.grudger, strategies.pavlov, strategies.Sanjin, \
+    strategies.myStrategy
 
-strategies = [alwaysCollude, alwaysDefect, titForTat, randomBasic, randomColluding, randomDefecting, grudger, pavlov,
-              Sanjin, myStrategy]
+strategies = [strategies.alwaysCollude, strategies.alwaysDefect, strategies.titForTat, strategies.randomBasic, strategies.randomColluding, strategies.randomDefecting, strategies.grudger, strategies.pavlov,
+              strategies.Sanjin, strategies.myStrategy]
 
 
 def play(AI, rounds):
